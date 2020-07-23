@@ -87,7 +87,7 @@ div.gallery > img {
 	justify-content: space-evenly;
 	font-family: 'Acme';
 	font-size: 1.5rem;
-	margin: 15px;
+	margin: 3%;
 	padding: 2%;
 }
 
@@ -215,7 +215,7 @@ div.logos > a {
     
     @media (max-width: 800px) {
         #top-box {
-            font-size: 5vw;
+            font-size: 4vw;
         }
 
         #pet-lover > img {
@@ -223,35 +223,51 @@ div.logos > a {
             height: auto;
         }
 
+        #pet-lover {
+            font-size: 4vw;
+            text-align: center;
+            /* flex-wrap: wrap; */
+        }
+
         #ContactMe {
             font-size: 5vw;
-            padding-bottom: 5%;
+            margin-bottom: 5vw;
         }
+
+        /* #ContactMe > p {
+            margin-bottom: 5vw;
+        } */
 
         #laptop {
             width: 75vw;
             height: 55vw;
+        }
+
+        .logos > img, a {
+            width: 5vw;
+            height: 5vw;
+            margin-top: 3vw;
+        }
+
+        #crafter {
+            font-size: 4vw;
+            align-content: space-around;
         }
     }
 
     @media (max-width: 569px) {
-        #top-box {
-            font-size: 5vw;
-        }
-
-        #pet-lover > img {
-            max-width: 350px;
-            height: auto;
-        }
-
         #ContactMe {
-            font-size: 5vw;
-            padding-bottom: 5%;
+
+        }
+
+        #crafter {
+            padding: 2vw;
+            /* flex-direction: column;
+            justify-content: space-evenly; */
         }
 
         #laptop {
-            width: 75vw;
-            height: 55vw;
+            
         }
 
         .logos > img {
