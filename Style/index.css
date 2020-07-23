@@ -119,14 +119,12 @@ div.gallery > img {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10%;
+    margin: 2vw auto;
 	font-family: 'Acme';
 	font-size: 2rem;
 }
 
-div#crafter > p {
+#crafter > p {
 	margin: 3%;
 }
 
@@ -226,7 +224,8 @@ div.logos > a {
         #pet-lover {
             font-size: 4vw;
             text-align: center;
-            /* flex-wrap: wrap; */
+            height: 80vw;
+            width: 80vw;
         }
 
         #ContactMe {
@@ -247,31 +246,37 @@ div.logos > a {
             width: 5vw;
             height: 5vw;
             margin-top: 3vw;
+            margin-bottom: 3vw;
+            padding: auto;
         }
 
         #crafter {
             font-size: 4vw;
             align-content: space-around;
+            margin: 5vw auto;
         }
     }
 
     @media (max-width: 569px) {
-        #ContactMe {
+       #navbar {
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 15px;
+        background-color: #2E4F72;
+       }
 
+       button {
+        background-color: #045f28;
+        padding: 2vw;
+        border-radius: 0%;
+        border: #927C6F solid;
         }
 
-        #crafter {
-            padding: 2vw;
-            /* flex-direction: column;
-            justify-content: space-evenly; */
+        #navbar a {
+            color: white;
         }
 
-        #laptop {
-            
-        }
-
-        .logos > img {
-            width: 75px;
-            height: 75px;            
+        html {
+            text-align: center;
         }
     }
