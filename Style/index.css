@@ -141,6 +141,12 @@ div.gallery > img {
 	padding: 2%;	
 }
 
+.logos {
+    display: inline;
+    margin-bottom: 1vw;
+}
+
+
 #ContactMe > p {
     display: flex;
     align-self: center;
@@ -233,21 +239,13 @@ div.logos > a {
             margin-bottom: 5vw;
         }
 
-        /* #ContactMe > p {
-            margin-bottom: 5vw;
-        } */
-
         #laptop {
             width: 75vw;
             height: 55vw;
         }
 
-        .logos > img, a {
-            width: 5vw;
-            height: 5vw;
-            margin-top: 3vw;
+        .logos {
             margin-bottom: 3vw;
-            padding: auto;
         }
 
         #crafter {
