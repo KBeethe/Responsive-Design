@@ -53,7 +53,8 @@ table {
 	font-size: 3rem;
 	font-family: 'Rock Salt';
 	color: #92815E;
-	background-color: #2E4F72;
+    background-color: #2E4F72;
+    padding: 2%;
 }
 
 #navbar {
@@ -109,7 +110,8 @@ div.gallery > img {
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Acme';
-	font-size: 2rem;
+    font-size: 2rem;
+    text-align: center;
 	padding: 2%;
 }
 
@@ -141,10 +143,19 @@ div#crafter > p {
 	padding: 2%;	
 }
 
-div#logos > a {
+#ContactMe > p {
+    display: flex;
+    align-self: center;
+}
+
+.logos {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.logos > a {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -206,8 +217,45 @@ div#logos > a {
         #top-box {
             font-size: 5vw;
         }
+
+        #pet-lover > img {
+            max-width: 80vw;
+            height: auto;
+        }
+
+        #ContactMe {
+            font-size: 5vw;
+            padding-bottom: 5%;
+        }
+
+        #laptop {
+            width: 75vw;
+            height: 55vw;
+        }
     }
 
-    @media (max-width: 500px) {
-        
+    @media (max-width: 569px) {
+        #top-box {
+            font-size: 5vw;
+        }
+
+        #pet-lover > img {
+            max-width: 350px;
+            height: auto;
+        }
+
+        #ContactMe {
+            font-size: 5vw;
+            padding-bottom: 5%;
+        }
+
+        #laptop {
+            width: 75vw;
+            height: 55vw;
+        }
+
+        .logos > img {
+            width: 75px;
+            height: 75px;            
+        }
     }
